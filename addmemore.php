@@ -15,23 +15,23 @@
     </div>
     
     <ul class="list-group list-group-horizontal">
-      <li class="list-group-item"><?php echo htmlspecialchars($_POST['inputEmail']); ?></li>
-      <li class="list-group-item"><?php echo htmlspecialchars($_POST['inputPassword']); ?></li>
-      <li class="list-group-item"><?php echo htmlspecialchars($_POST['inputSexe']); ?></li>
+      <li class="list-group-item"><?php echo htmlspecialchars($_POST['Email']); ?></li>
+      <li class="list-group-item"><?php echo htmlspecialchars($_POST['Password']); ?></li>
+      <li class="list-group-item"><?php echo htmlspecialchars($_POST['Sexe']); ?></li>
     </ul>
     
 <div class="card mb-3" style="max-width: 840px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-      <img src="..." class="card-img" alt="<?php echo htmlspecialchars($_POST['inputName']); ?>">
+      <img src="..." class="card-img" alt="<?php echo htmlspecialchars($_POST['Name']); ?>">
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title"><?php echo htmlspecialchars($_POST['inputName']); ?></h5>
+        <h5 class="card-title"><?php echo htmlspecialchars($_POST['Name']); ?></h5>
         <p class="card-text">
             <ul>
-                <li><?php echo htmlspecialchars($_POST['inputNickname']); ?></li>
-                <li><?php echo htmlspecialchars($_POST['inputDateofBirth']); ?></li>
+                <li><?php echo htmlspecialchars($_POST['Nickname']); ?></li>
+                <li><?php echo htmlspecialchars($_POST['DateofBirth']); ?></li>
                 <li><?php echo htmlspecialchars($_POST['lang']); ?></li>
           </ul>
           </p>

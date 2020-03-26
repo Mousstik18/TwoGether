@@ -13,26 +13,26 @@
     <p></p>
   </div>
 <div class="form-label-group" style="max-width: 70%; display: flex; margin: auto; margin-bottom: 20px;">
-    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+    <input type="email" name="Email" class="form-control" placeholder="Email address" required>
     <label for="inputEmail">Email address</label>
 </div>
 
 <div class="form-label-group" style="max-width: 70%; display: flex; margin: auto; margin-bottom: 20px;">
-    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+    <input type="password" name="Password" class="form-control" placeholder="Password" required>
     <label for="inputPassword">Password</label>
 </div>
 <div class="col-auto" style="display: flex; justify-content: space-between;">
     <div  class="form-label-group">
-    <input type="name" id="inputName" class="form-control" placeholder="Name" required>
+    <input type="name" name="Name" class="form-control" placeholder="Name" required>
     <label for="inputName"><span>Name</span></label>          
     </div>
     <div class="form-label-group">
-    <input type="nickname" id="inputNickname" class="form-control" placeholder="Nickname">
+    <input type="nickname" name="Nickname" class="form-control" placeholder="Nickname">
     <label for="inputNickname"><span>Nickname</span></label>
     </div>
 </div>
 <div class="form-label-group" style="max-width: 70%; display: flex; margin: auto; margin-bottom: 20px;">
-    <input type="date" id="DateofBirth" class="form-control" placeholder="DateofBirth" min="2004" required>
+    <input type="date" name="DateofBirth" class="form-control" placeholder="DateofBirth" min="2004" required>
     <label for="inputDateofBirth">Date of Birth</label>
 </div>
         
@@ -42,28 +42,28 @@
     
 <div class="col-auto" style="display: flex; justify-content: space-between;">
     <div  class="form-label-group" style="max-width: 70%;">
-    <input type="facebook" id="inputFacebook" class="form-control" placeholder="Facebook">
+    <input type="facebook" name="Facebook" class="form-control" placeholder="Facebook">
     <label for="inputFacebook"><i class="fab fa-facebook-f"></i></label>
     </div>
     <div class="form-label-group" style="max-width: 70%;">
-    <input type="messenger" id="inputMessenger" class="form-control" placeholder="Messenger">
+    <input type="messenger" name="Messenger" class="form-control" placeholder="Messenger">
     <label for="inputMessenger"><i class="fab fa-facebook-messenger"></i></label>
     </div>
 </div>
 <div class="col-auto" style="display: flex; justify-content: space-between;">
     <div class="form-label-group" style="max-width: 70%;">
-    <input type="twitter" id="inputTwitter" class="form-control" placeholder="Twitter">
+    <input type="twitter" name="Twitter" class="form-control" placeholder="Twitter">
     <label for="inputTwitter"><i class="fab fa-twitter"></i></label>
     </div>
     <div class="form-label-group" style="max-width: 70%;">
-    <input type="skype" id="inputSkype" class="form-control" placeholder="Skype">
+    <input type="skype" name="Skype" class="form-control" placeholder="Skype">
     <label for="inputSkype"><i class="fab fa-skype"></i></label>
     </div>
 </div>
         
 <div class="col-auto" style="display: flex; justify-content: space-between;">
     <div class="form-label-group" style="max-width: 70%;">
-    <input type="instagram" id="inputInstagram" class="form-control" placeholder="Instagram">
+    <input type="instagram" name="Instagram" class="form-control" placeholder="Instagram">
     <label for="inputInstagram"><i class="fab fa-instagram"></i></label>
     </div>
     <div class="form-label-group" style="max-width: 70%;">
@@ -73,11 +73,11 @@
 </div>        
 <div class="col-auto" style="display: flex; justify-content: space-between;">
     <div class="form-label-group" style="max-width: 70%;">
-    <input type="snapchat" id="inputSnapchat" class="form-control" placeholder="Snapchat">
+    <input type="snapchat" name="Snapchat" class="form-control" placeholder="Snapchat">
     <label for="inputSnapchat"><i class="fab fa-snapchat-ghost"></i></label>
     </div>
     <div class="form-label-group" style="max-width: 70%;">
-    <input type="twitch" id="inputTwitch" class="form-control" placeholder="Twitch">
+    <input type="twitch" name="Twitch" class="form-control" placeholder="Twitch">
     <label for="inputTwitch"><i class="fab fa-twitch"></i></label>
     </div>
 </div>
@@ -126,7 +126,7 @@
                     <label class="custom-control-label" for="langRU"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/20px-Flag_of_Russia.svg.png" style="width: 20; height: 13; padding: 10 10 10 10"></label>
                 </div>
                 <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" id="langOTHER">
+                    <input type="checkbox" class="custom-control-input" id="langOTHER" name="langOTHER">
                     <label class="custom-control-label" for="langOTHER"><p style="width: 20; height: 13; padding: 10 10 10 10">Other</p></label>
                 </div>
                 </div>
