@@ -14,10 +14,10 @@
     <p>Are you sure ?</p>
     </div>
     
-    <ul class="list-group list-group-horizontal">
-      <li class="list-group-item"><?php echo htmlspecialchars($_POST['Email']); ?></li>
-      <li class="list-group-item"><?php echo htmlspecialchars($_POST['Password']); ?></li>
-      <li class="list-group-item"><?php echo htmlspecialchars($_POST['Sexe']); ?></li>
+    <ul class="list-group list-group-horizontal flex-fill" style="min-width: 550px; justify-content: center;padding: 15px">
+      <li class="list-group-item" style="flex: auto"><?php echo htmlspecialchars($_POST['Email']); ?></li>
+      <li class="list-group-item" style="flex: auto"><?php echo htmlspecialchars($_POST['Password']); ?></li>
+      <li class="list-group-item" style="flex: auto"><?php echo htmlspecialchars($_POST['Sexe']); ?></li>
     </ul>
     
 <div class="card mb-3" style="max-width: 840px;">
