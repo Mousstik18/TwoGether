@@ -8,7 +8,7 @@
     <div class="form-support">
         <widgetbot
           server="147994383042609152"
-          channel="693087603846807603"
+          channel="693809507553247293"
           width="1280"
           height="720"
           shard="https://disweb.dashflo.net">

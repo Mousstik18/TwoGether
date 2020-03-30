@@ -11,19 +11,19 @@
   transition: ease-in-out color .15s;
 }
 .site-header a:hover {
-  color: mediumaquamarine;
+  color: limegreen;
   text-decoration: none;
 }
 
 .btn-prim {
-    color: mediumaquamarine;
+    color: lime;
     border: dashed;
 }
 .btn-prim:hover {
-    border-color: aquamarine;
+    border-color: greenyellow;
 }
 .btn-outline-secondary:hover {
-    background-color: mediumaquamarine;
+    background-color: greenyellow;
 }
 
 .jumbotron {
@@ -146,3 +146,18 @@
   }
 }
 
+.card {
+    margin: 10px;
+}
+
+.callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+    margin-left: 15%;
+  border: 1px solid #64FE2E;
+    max-width: 70%; 
+    display: flex; 
+    align-content: center;
+    border-radius: 0.25rem;
+}
