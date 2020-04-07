@@ -2,7 +2,7 @@
 session_start(); ?>
 
 <!doctype html>
-<html>
+<html lang="fr">
 <?php require 'include/head.php' ?>
 
 <body  style="font-family: 'Mansalva', cursive;">
@@ -27,8 +27,8 @@ session_start(); ?>
     <?php 
     $arrayPages = array(
  
-    'home' => 'accueil.php',
-    'meet' => 'meet.php',
+    'accueil' => 'accueil.php',
+    'galerie' => 'photos.php',
     'addme' => 'addme.php',
     'support' => 'support.php'
   );
@@ -50,12 +50,11 @@ if(!empty($_GET['page']))
     else
   {
     // Non, on affiche la page d'accueil par défaut
-    include('pages/'. $arrayPages['home']);
+    include('pages/'. $arrayPages['accueil']);
   }
     
     
     require ($_GET['page'] .'/.php'); ?>
-    
 
     <?php include 'include/footer.php' ?>
 
